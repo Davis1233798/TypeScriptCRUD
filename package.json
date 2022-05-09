@@ -1,9 +1,12 @@
 {
-  "name": "API-TypeScript",
+  "name": "typescript",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Davis1233798 <davis1233798@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    "dev":"nodemon --config nodemon.json src/app.ts"
+  },
   "dependencies": {
     "config": "^3.3.7",
     "cors": "^2.8.5",
